@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "clarifo": {
+      "command": "bun",
+      "args": [
+        "run",
+        "/home/orenji/coding/clarifo/index.ts"
+      ],
+      "env": {},
+      "disabled": false,
+      "alwaysAllow": [
+        "ask_clarification",
+        "clarifo_confirm_questions_sent_and_trigger_wait_message",
+        "ask_multiple_clarifications"
+      ]
+    }
+  }
+}

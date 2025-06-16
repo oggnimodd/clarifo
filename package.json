@@ -1,0 +1,21 @@
+{
+  "name": "clarifo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "biome format --write .",
+    "lint": "biome lint --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3",
+    "chalk": "^5.4.1"
+  }
+}
