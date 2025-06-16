@@ -11,7 +11,8 @@
       "alwaysAllow": [
         "ask_clarification",
         "clarifo_confirm_questions_sent_and_trigger_wait_message",
-        "ask_multiple_clarifications"
+        "ask_multiple_clarifications",
+        "provide_clarification_summary"
       ]
     }
   }
