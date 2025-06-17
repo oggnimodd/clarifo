@@ -235,7 +235,7 @@ Key principles:
     properties: {
       context: {
         type: "string",
-        description: "Clear description of what the user wants to implement/fix/improve and why clarification is needed before proceeding"
+        description: "A comprehensive and detailed explanation of the user's request, including the 'why' behind the clarification. This context will be used by the MCP to generate more relevant and in-depth questions."
       },
       questions: {
         type: "array",
@@ -249,7 +249,7 @@ Key principles:
             suggestions: {
               type: "array",
               items: { type: "string" },
-              description: "2-4 complete, specific suggested answers that cover different approaches or scenarios"
+              description: "A list of 2-4 complete, specific suggested answers. Each suggestion should be a detailed explanation, including: 1. Rationale and benefits. 2. Examples, pseudo-code, or structural outlines (e.g., JSON, YAML) where applicable. 3. Potential implications or considerations. Use Markdown formatting (e.g., bolding, bullet points, code blocks) within the suggestion strings for enhanced readability."
             }
           },
           required: ["question", "suggestions"]
